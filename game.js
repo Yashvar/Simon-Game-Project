@@ -9,6 +9,7 @@ var started = false;
 
 var level = 0;
 
+//if user presses a key on keyboard
 $(document).keypress(function() {
   if (!started) {
 
@@ -17,6 +18,17 @@ $(document).keypress(function() {
     started = true;
   }
 });
+
+//if user presses the start button
+$(".start-button").click(function(){
+  if (!started) {
+
+    $("#level-title").text("Level " + level);
+    nextSequence();
+    started = true;
+  }
+});
+
 //////////////////////////////////////////////////////////////////
 function nextSequence(){
   level++;
