@@ -55,7 +55,7 @@ $(".btn").click(function(){
 
   userClickedPattern.push(userChosenColour);
 
-  console.log(userClickedPattern);
+  ///////////////////////////////////////////////////console.log(userClickedPattern);
 
   playSound(userChosenColour);
   animatePress(userChosenColour);
@@ -80,7 +80,7 @@ function animatePress(currentColor){
 function checkAnswer(currLevel){
 
   if (gamePattern[currLevel]==userClickedPattern[currLevel]){
-    console.log(userClickedPattern[currLevel]);
+    //////////////////////////////////////console.log(userClickedPattern[currLevel]);
     console.log("success");
     if (userClickedPattern.length==gamePattern.length){
       //delay
