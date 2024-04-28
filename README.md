@@ -1,5 +1,6 @@
 # Simon-Game-Project
-The Simon game is made using HTML, CSS and JavaScript. It is a user interactive game for browser. 
+The Simon game is made using HTML, CSS and JavaScript. It is a user interactive game for browser.
+(url - https://yashvar.github.io/Simon-Game-Project/ )
 
 **Game Description:-**
 So the way that it works is that you can press any key to start and it will show you a tile that
